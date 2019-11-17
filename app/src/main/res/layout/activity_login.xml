@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50dp"
+    android:background="@color/colorPrimary"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Login Terlebih Dahulu!"
+        android:paddingBottom="50dp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="25dp"/>
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/glosirin"
+        android:text="Hello World!" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:paddingBottom="50dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#44321F">
+        <TextView
+            android:id="@+id/user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo"
+            android:text="Username"
+            android:paddingBottom="10dp"
+            android:textColor="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/inuser"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:layout_below="@+id/user"
+            android:layout_marginBottom="10dp"
+            android:background="#FFFFFF"/>
+
+
+        <TextView
+            android:id="@+id/pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/inuser"
+            android:text="Password"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/inpass"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/pass"
+            android:textAlignment="center"
+            android:background="#FFFFFF"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#80490A"
+            android:hint="Login"
+            android:textColorHint="#FFFFFF" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Belum punya akun?"
+            android:textColor="#FFFFFF"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"/>
+        <Button
+            android:id="@+id/btndaftar"
+            android:layout_width="300dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="#9C681D"
+            android:hint="Daftar"
+            android:textColorHint="#FFFFFF" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
