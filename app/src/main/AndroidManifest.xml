@@ -6,19 +6,15 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_round"
-        android:label="UjiCOba Grosirim"
+        android:label="Grosirin"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MenuUtama">
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
-        </activity>
+        <activity android:name=".tokoActivity" android:label="Toko"></activity>
+        <activity
+            android:name=".KategoriActivity"
+            android:label="Kategori" />
+        <activity android:name=".menuutama_activity" android:label="Menu Utama"/>
         <activity
             android:name=".splashScreen"
             android:noHistory="true"
@@ -30,6 +26,26 @@
             </intent-filter>
         </activity>
         <activity android:name=".login_activity" />
+        <activity android:name=".daftar_activity" />
+        <activity android:name=".profile_activity" />
+        <activity
+            android:name=".activity_histori"
+            android:label="Histori Transaksi" />
+        <activity
+            android:name=".InvoiceActivity"
+            android:label="@string/struk_belanja" />
+        <activity
+            android:name=".KeranjangActivity"
+            android:label="Keranjang Belanja" />
+        <activity
+            android:name=".MetodePembayaranActivity"
+            android:label="Metode Pembayaran" />
+        <activity
+            android:name=".ListBankActivity"
+            android:label="@string/list_bank" />
+        <activity
+            android:name=".PilihItemActivity"
+            android:label="Pilih Item" />
     </application>
 
 </manifest>

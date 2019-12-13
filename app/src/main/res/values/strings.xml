@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Grosirin</string>
+    <string name="struk_belanja">Struk Belanja</string>
+    <string name="list_bank">List Bank</string>
+
+    <string-array name="pilih_jasa_pengiriman">
+        <item>GO-SEND (RP. 23.000)</item>
+        <item>GO-CAR (RP. 30.000)</item>
+        <item>Personal (RP. 15.000)</item>
+    </string-array>
 </resources>

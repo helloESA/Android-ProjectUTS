@@ -11,6 +11,19 @@
     <color name="darkblue">#23283a</color>
     <color name="testcolorblue">#152b38</color>
     <color name="pink">#fe104d</color>
+    <color name="colorTextWhite">#FFFFFF</color>
+    <color name="colorBackCoklat">#44321e</color>
+    <color name="colorBackCoklatMuda">#d8963f</color>
+    <color name="colorTextCoklat">#D81B60</color>
+    <color name="colorTombol">#804909</color>
+
+
+    <color name="lingkaran_account">#8E24AA</color>
+    <color name="lingkaran_transaksi">#FDD835</color>
+    <color name="lingkaran_kategori">#D81B60</color>
+    <color name="lingkaran_toko">#43A047</color>
+    <color name="lingkaran_emoney">#220438</color>
+    <color name="lingkaran_vocer">#540DDD</color>
 
     <color name="black_overlay">#66000000</color>
 </resources>
